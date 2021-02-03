@@ -13,6 +13,8 @@ echo
 echo -e ${YELLOW}"Welcome to the Beta Masternode Manager Script by ${BLUE}NullEntry"${CLEAR}
 echo -e ${RED}'THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND'${CLEAR}
 echo
+echo -e ${RED}'THE SOFTWARE IS PROVIDED FOR TESTING AND NOT PUBLISHED RELEASE'${CLEAR}
+echo
 echo -e ${BLUE}"May this script will store a small amount data in /usr/local/nullentrydev/ ?"${CLEAR}
 echo -e ${BLUE}"This information is for version updates, masternode installation, file repair"${CLEAR}
 echo -e ${BLUE}"and later implementation. Zero information is transmitted off the VPS or collected"${CLEAR}
