@@ -2316,7 +2316,7 @@ esac
         echo -e "${GREEN}This is going to take a few minutes, and when done will display"
         echo -e "${GREEN}information you need for your masternode.conf on your local wallet"
         echo
-        echo -e ${GREEN}"How Many Masternode Would you like to Install? [1 - 12]"${CLEAR}
+        echo -e ${GREEN}"How Many Masternode Would you like to Install? [1 - 50]"${CLEAR}
         echo -e ${YELLOW}
         read INSTALLAMOUNT
         echo -e ${CLEAR}
