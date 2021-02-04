@@ -2387,7 +2387,7 @@ esac
     echo "datacarrier=1" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   fi
   if [[ ! $nodeunit -eq 1 ]] ; then
-    echo "listen=0" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    echo "listen=1" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   fi
   if [[ $nodeunit -eq 1 ]] ; then
     echo "externalip=${MNIP1}:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
