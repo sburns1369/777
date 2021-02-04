@@ -3173,7 +3173,8 @@ Function_Build_Masternode_Key_Table(){
     echo \#unless keys are entered in configuration directly.  >> ${DPATH}${COIN3l}mnkey.tbl
     count=0
     until [[ $count = 50 ]]; do
-    ${COINDAEMONCLI} -datadir=/home/${COINl}1/.${COINl} masternode genkey >> ${DPATH}${COIN3l}mnkey.tbl
+    #${COINDAEMONCLI} -datadir=/home/${COINl}1/.${COINl} masternode genkey >> ${DPATH}${COIN3l}mnkey.tbl
+    ${COINDAEMONCLI} -datadir=/home/${COINl}1/.${COINl} createmasternodekey >> ${DPATH}${COIN3l}mnkey.tbl
     count=$[$count+1]
     done
     Function_Stop_Masternode
