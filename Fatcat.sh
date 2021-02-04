@@ -2035,7 +2035,7 @@ esac
   }
   disp_masternode_Status(){
   echo -e ${GREEN}"Reporting Masternode Status" ${YELLOW}
-  ${COINDAEMONCLI} -datadir=${COINHOME}${nodeunit}/${COINCORE} masternode status
+  ${COINDAEMONCLI} -datadir=${COINHOME}${nodeunit}/${COINCORE} getmasternodestatus
   echo -e ${CLEAR}
   }
 
