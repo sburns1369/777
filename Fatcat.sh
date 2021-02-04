@@ -2390,106 +2390,209 @@ esac
     echo "listen=1" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   fi
   if [[ $nodeunit -eq 1 ]] ; then
-    echo "externalip=${MNIP1}:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    echo "bind=${MNIP1}" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 2 ]] ; then
-      echo "externalip=[${MNIP2}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP2}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 3 ]] ; then
-      echo "externalip=[${MNIP3}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP3}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 4 ]] ; then
-      echo "externalip=[${MNIP4}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP4}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 5 ]] ; then
-      echo "externalip=[${MNIP5}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP5}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 6 ]] ; then
-      echo "externalip=[${MNIP6}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP6}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 7 ]] ; then
-      echo "externalip=[${MNIP7}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP7}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 8 ]] ; then
-      echo "externalip=[${MNIP8}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP8}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 9 ]] ; then
-      echo "externalip=[${MNIP9}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP9}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 10 ]] ; then
-      echo "externalip=[${MNIP10}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP10}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 11 ]] ; then
-      echo "externalip=[${MNIP11}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP11}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 12 ]] ; then
-      echo "externalip=[${MNIP12}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP12}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 13 ]] ; then
-      echo "externalip=[${MNIP13}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP13}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 14 ]] ; then
-      echo "externalip=[${MNIP14}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP14}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 15 ]] ; then
-      echo "externalip=[${MNIP15}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP15}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 16 ]] ; then
-      echo "externalip=[${MNIP16}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP16}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 17 ]] ; then
-      echo "externalip=[${MNIP17}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP17}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 18 ]] ; then
-      echo "externalip=[${MNIP18}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP18}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 19 ]] ; then
-      echo "externalip=[${MNIP19}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP19}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 20 ]] ; then
-      echo "externalip=[${MNIP20}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP20}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 21 ]] ; then
-      echo "externalip=[${MNIP21}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP21}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 22 ]] ; then
-      echo "externalip=[${MNIP22}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP22}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 23 ]] ; then
-      echo "externalip=[${MNIP23}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP23}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 24 ]] ; then
-      echo "externalip=[${MNIP24}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP24}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 25 ]] ; then
-      echo "externalip=[${MNIP25}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP25}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 26 ]] ; then
-      echo "externalip=[${MNIP26}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP26}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 27 ]] ; then
-      echo "externalip=[${MNIP27}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP27}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 28 ]] ; then
-      echo "externalip=[${MNIP28}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP28}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 29 ]] ; then
-      echo "externalip=[${MNIP29}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP29}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 30 ]] ; then
-      echo "externalip=[${MNIP30}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP30}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 31 ]] ; then
-      echo "externalip=[${MNIP31}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP31}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 32 ]] ; then
-      echo "externalip=[${MNIP32}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP32}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 33 ]] ; then
-      echo "externalip=[${MNIP33}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP33}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 34 ]] ; then
-      echo "externalip=[${MNIP34}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP34}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 35 ]] ; then
-      echo "externalip=[${MNIP35}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP35}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 36 ]] ; then
-      echo "externalip=[${MNIP36}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP36}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 37 ]] ; then
-      echo "externalip=[${MNIP37}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP37}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 38 ]] ; then
-      echo "externalip=[${MNIP38}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP38}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 39 ]] ; then
-      echo "externalip=[${MNIP39}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP39}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 40 ]] ; then
-      echo "externalip=[${MNIP40}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP40}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 41 ]] ; then
-      echo "externalip=[${MNIP41}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP41}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 42 ]] ; then
-      echo "externalip=[${MNIP42}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP42}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 43 ]] ; then
-      echo "externalip=[${MNIP43}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP43}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 44 ]] ; then
-      echo "externalip=[${MNIP44}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP44}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 45 ]] ; then
-      echo "externalip=[${MNIP45}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP45}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 46 ]] ; then
-      echo "externalip=[${MNIP46}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP46}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 47 ]] ; then
-      echo "externalip=[${MNIP47}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP47}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 48 ]] ; then
-      echo "externalip=[${MNIP48}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP48}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 49 ]] ; then
-      echo "externalip=[${MNIP49}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP49}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 50 ]] ; then
-      echo "externalip=[${MNIP50}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=[${MNIP50}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   fi
+  #testing
+  if [[ $nodeunit -eq 1 ]] ; then
+    echo "masternodeaddr=${MNIP1}:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 2 ]] ; then
+      echo "masternodeaddr=[${MNIP2}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 3 ]] ; then
+      echo "masternodeaddr=[${MNIP3}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 4 ]] ; then
+      echo "masternodeaddr=[${MNIP4}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 5 ]] ; then
+      echo "masternodeaddr=[${MNIP5}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 6 ]] ; then
+      echo "masternodeaddr=[${MNIP6}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 7 ]] ; then
+      echo "masternodeaddr=[${MNIP7}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 8 ]] ; then
+      echo "masternodeaddr=[${MNIP8}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 9 ]] ; then
+      echo "masternodeaddr=[${MNIP9}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 10 ]] ; then
+      echo "masternodeaddr=[${MNIP10}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 11 ]] ; then
+      echo "masternodeaddr=[${MNIP11}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 12 ]] ; then
+      echo "masternodeaddr=[${MNIP12}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 13 ]] ; then
+      echo "masternodeaddr=[${MNIP13}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 14 ]] ; then
+      echo "masternodeaddr=[${MNIP14}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 15 ]] ; then
+      echo "masternodeaddr=[${MNIP15}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 16 ]] ; then
+      echo "masternodeaddr=[${MNIP16}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 17 ]] ; then
+      echo "masternodeaddr=[${MNIP17}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 18 ]] ; then
+      echo "masternodeaddr=[${MNIP18}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 19 ]] ; then
+      echo "masternodeaddr=[${MNIP19}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 20 ]] ; then
+      echo "masternodeaddr=[${MNIP20}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 21 ]] ; then
+      echo "masternodeaddr=[${MNIP21}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 22 ]] ; then
+      echo "masternodeaddr=[${MNIP22}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 23 ]] ; then
+      echo "masternodeaddr=[${MNIP23}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 24 ]] ; then
+      echo "masternodeaddr=[${MNIP24}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 25 ]] ; then
+      echo "masternodeaddr=[${MNIP25}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 26 ]] ; then
+      echo "masternodeaddr=[${MNIP26}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 27 ]] ; then
+      echo "masternodeaddr=[${MNIP27}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 28 ]] ; then
+      echo "masternodeaddr=[${MNIP28}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 29 ]] ; then
+      echo "masternodeaddr=[${MNIP29}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 30 ]] ; then
+      echo "masternodeaddr=[${MNIP30}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 31 ]] ; then
+      echo "masternodeaddr=[${MNIP31}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 32 ]] ; then
+      echo "masternodeaddr=[${MNIP32}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 33 ]] ; then
+      echo "masternodeaddr=[${MNIP33}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 34 ]] ; then
+      echo "masternodeaddr=[${MNIP34}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 35 ]] ; then
+      echo "masternodeaddr=[${MNIP35}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 36 ]] ; then
+      echo "masternodeaddr=[${MNIP36}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 37 ]] ; then
+      echo "masternodeaddr=[${MNIP37}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 38 ]] ; then
+      echo "masternodeaddr=[${MNIP38}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 39 ]] ; then
+      echo "masternodeaddr=[${MNIP39}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 40 ]] ; then
+      echo "masternodeaddr=[${MNIP40}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 41 ]] ; then
+      echo "masternodeaddr=[${MNIP41}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 42 ]] ; then
+      echo "masternodeaddr=[${MNIP42}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 43 ]] ; then
+      echo "masternodeaddr=[${MNIP43}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 44 ]] ; then
+      echo "masternodeaddr=[${MNIP44}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 45 ]] ; then
+      echo "masternodeaddr=[${MNIP45}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 46 ]] ; then
+      echo "masternodeaddr=[${MNIP46}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 47 ]] ; then
+      echo "masternodeaddr=[${MNIP47}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 48 ]] ; then
+      echo "masternodeaddr=[${MNIP48}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 49 ]] ; then
+      echo "masternodeaddr=[${MNIP49}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+    elif [[ $nodeunit -eq 50 ]] ; then
+      echo "masternodeaddr=[${MNIP50}]:$COINPORT" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+  fi
+  ## insert
   if [[ $nodeunit -eq 1 ]] ; then
   echo "masternodeprivkey=$PRIVK1" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   elif [[ $nodeunit -eq 2 ]] ; then
@@ -2602,47 +2705,6 @@ esac
   echo "addnode=$ADDNODE7" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   echo "addnode=$ADDNODE8" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   echo "addnode=$ADDNODE9" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE10" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE11" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE12" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE14" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE15" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE16" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE17" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE18" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE19" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE20" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE21" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE22" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE23" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE24" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE25" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE26" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE27" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE28" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE29" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE30" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE31" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE32" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE33" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE34" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE35" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE36" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE37" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE38" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE39" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE40" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE41" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE42" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE43" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE44" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE45" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE46" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE47" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE48" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE49" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
-  echo "addnode=$ADDNODE50" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   else
   echo "addnode=${MNIP1}" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   fi
