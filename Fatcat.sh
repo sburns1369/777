@@ -18,8 +18,8 @@ COINCORE=.jackpot
 COINCONFIG=jackpot.conf
 COINHOME=/home/jackpot
 #wallet downnload and extractions commands
-DOWNLOADCOINFILES=https://github.com/777-project/777_v2/releases/download/v2.0.2/jackpot-2.0.2-linux.zip
-COINFILES=jackpot-2.0.2-linux.zip
+DOWNLOADCOINFILES=https://github.com/777-project/777/releases/download/v3.0.0.0/Jackpot-3.0.0.0-Linux.zip
+COINFILES=Jackpot-3.0.0.0-Linux.zip
 DECOMPRESS='unzip'
 #rocketstrap
 #NEBootStrap=http://needbootstrap
