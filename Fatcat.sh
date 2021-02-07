@@ -2192,6 +2192,8 @@ esac
   else
     echo -e ${GREEN}"Found 777-${nodeunit} Installation Found - /home/${COINl}${nodeunit}" ${CLEAR}
   fi
+${COINDAEMONCLI} -datadir=${COINHOME}${nodeunit}/${COINCORE} getmasternodestatus
+#testinsert above
   ${COINDAEMONCLI} -datadir=${COINHOME}${nodeunit}/${COINCORE} masternode status &> ${DPATH}777MN${nodeunit}.tmp
     if grep -q "Hot node, waiting for remote activation" ${DPATH}777MN${nodeunit}.tmp; then
       echo -e ${YELLOW} "Masternode Ready, waiting for activation from Wallet" ${CLEAR}
