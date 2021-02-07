@@ -2400,95 +2400,95 @@ esac
     elif [[ $nodeunit -eq 5 ]] ; then
       echo "bind=127.0.0.5" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 6 ]] ; then
-      echo "bind=[${MNIP6}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.6" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 7 ]] ; then
-      echo "bind=[${MNIP7}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.7" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 8 ]] ; then
-      echo "bind=[${MNIP8}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.8" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 9 ]] ; then
-      echo "bind=[${MNIP9}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.9" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 10 ]] ; then
-      echo "bind=[${MNIP10}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.10" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 11 ]] ; then
-      echo "bind=[${MNIP11}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.11" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 12 ]] ; then
-      echo "bind=[${MNIP12}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.12" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 13 ]] ; then
-      echo "bind=[${MNIP13}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.13" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 14 ]] ; then
-      echo "bind=[${MNIP14}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.14" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 15 ]] ; then
-      echo "bind=[${MNIP15}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.15" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 16 ]] ; then
-      echo "bind=[${MNIP16}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.16" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 17 ]] ; then
-      echo "bind=[${MNIP17}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.17" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 18 ]] ; then
-      echo "bind=[${MNIP18}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.18" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 19 ]] ; then
-      echo "bind=[${MNIP19}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.19" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 20 ]] ; then
-      echo "bind=[${MNIP20}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.20" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 21 ]] ; then
-      echo "bind=[${MNIP21}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.21" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 22 ]] ; then
-      echo "bind=[${MNIP22}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.22" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 23 ]] ; then
-      echo "bind=[${MNIP23}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.23" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 24 ]] ; then
-      echo "bind=[${MNIP24}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.24" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 25 ]] ; then
-      echo "bind=[${MNIP25}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.25" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 26 ]] ; then
-      echo "bind=[${MNIP26}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.26" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 27 ]] ; then
-      echo "bind=[${MNIP27}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.27" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 28 ]] ; then
-      echo "bind=[${MNIP28}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.28" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 29 ]] ; then
-      echo "bind=[${MNIP29}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.29" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 30 ]] ; then
-      echo "bind=[${MNIP30}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.30" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 31 ]] ; then
-      echo "bind=[${MNIP31}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.31" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 32 ]] ; then
-      echo "bind=[${MNIP32}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.32" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 33 ]] ; then
-      echo "bind=[${MNIP33}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.33" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 34 ]] ; then
-      echo "bind=[${MNIP34}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.34" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 35 ]] ; then
-      echo "bind=[${MNIP35}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.35" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 36 ]] ; then
-      echo "bind=[${MNIP36}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.36" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 37 ]] ; then
-      echo "bind=[${MNIP37}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.37" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 38 ]] ; then
-      echo "bind=[${MNIP38}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.38" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 39 ]] ; then
-      echo "bind=[${MNIP39}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.39" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 40 ]] ; then
-      echo "bind=[${MNIP40}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.40" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 41 ]] ; then
-      echo "bind=[${MNIP41}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.41" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 42 ]] ; then
-      echo "bind=[${MNIP42}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.42" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 43 ]] ; then
-      echo "bind=[${MNIP43}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.43" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 44 ]] ; then
-      echo "bind=[${MNIP44}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.44" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 45 ]] ; then
-      echo "bind=[${MNIP45}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.45" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 46 ]] ; then
-      echo "bind=[${MNIP46}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.46" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 47 ]] ; then
-      echo "bind=[${MNIP47}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.47" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 48 ]] ; then
-      echo "bind=[${MNIP48}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.48" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 49 ]] ; then
-      echo "bind=[${MNIP49}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.49" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 50 ]] ; then
-      echo "bind=[${MNIP50}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.50" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
   fi
   #testing
   if [[ $nodeunit -eq 1 ]] ; then
