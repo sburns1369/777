@@ -2392,13 +2392,13 @@ esac
   if [[ $nodeunit -eq 1 ]] ; then
     echo "bind=${MNIP1}" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 2 ]] ; then
-      echo "bind=[${MNIP2}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.2" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 3 ]] ; then
-      echo "bind=[${MNIP3}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.3" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 4 ]] ; then
-      echo "bind=[${MNIP4}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.4" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 5 ]] ; then
-      echo "bind=[${MNIP5}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
+      echo "bind=127.0.0.5" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 6 ]] ; then
       echo "bind=[${MNIP6}]" >> /home/${COINl}${nodeunit}/.${COINl}/${COINCONFIG}
     elif [[ $nodeunit -eq 7 ]] ; then
